@@ -1,0 +1,120 @@
+body
+
+{
+
+    background: url('zozor/images/fond_jaune.png');
+
+    font-family: 'trebuchet ms', Arial, sans-serif;
+
+    color: #181818;
+}
+
+#bloc_page
+
+{
+
+    width: 95%;
+
+    margin: auto;
+
+}
+
+header
+
+{
+
+    background: url('images/separateur.png') repeat-x bottom;
+
+    border: ridge red 5px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    box-shadow: 0 4px 8px 0 grey;
+
+}
+
+#logo  /*  le coin du logo + zozor*/
+
+{
+
+    display: flex;
+
+    align-items: baseline;
+
+}
+
+header h1 :/* zozor */
+
+{
+
+    font-family: 'BallparkWeiner', serif;
+
+    font-size: 2.5em;
+
+    font-weight: normal;
+
+    margin: 0 0 0 10px;
+
+}
+
+#titre_principal /* logo + zozor + carnets de voyage*/
+
+{
+
+      margin:10px;    
+
+}
+
+nav /* le coin acceuil blog cv contact*/
+
+{
+
+    margin:10px;
+
+}
+
+#bandeau /* photo + info*/
+
+{
+
+    background: url('zozor/images/sanfrancisco.jpg') no-repeat;
+
+    background-size: cover;
+
+    height:300px;
+
+    border-radius: 10px;
+
+}
+
+nav ul
+
+{
+
+    display: flex;
+
+    flex-direction: row;
+
+    border: solid blue 2px;
+
+    border-radius: 10px;
+
+    padding: 5px;
+
+}
+
+nav li
+
+{
+
+    list-style-type:none;
+
+    margin: 3px; 
+
+}
