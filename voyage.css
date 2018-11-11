@@ -68,8 +68,6 @@ header
 
 {
 
-    background: url('images/separateur.png') repeat-x bottom;
-
     border: ridge red 5px;
 
     border-radius: 10px;
@@ -238,4 +236,92 @@ nav li
 
     margin: 3px; 
 
+}
+
+section
+
+{
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    align-items: stretch;
+    
+}
+
+article 
+
+{
+    
+   display: flex;
+       
+   flex-direction: column;
+    
+   text-align: justify;
+    
+    margin-right: 10px;
+    
+}
+
+aside
+
+{
+    position: relative;
+    
+    display: flex;
+       
+   flex-direction: column;
+    
+   text-align: justify;
+    
+    margin-left: 10px;
+    
+    background-color: #5a5b61;
+    
+    color: white;
+    
+    padding: 10PX;
+    
+    border-radius: 10px;
+    
+}
+
+aside h1  /*  A PROPOS DE L AUTEUR*/
+
+{
+    
+  white-space: nowrap;
+    
+}
+
+aside ul
+
+{
+    position: absolute;
+    
+    bottom: 0;
+    
+    left: 0;
+    
+    display: flex;
+    
+    flex-direction: row;
+    
+    list-style-type: none;
+    
+}
+
+#zozor_image
+
+{
+    
+    display: block;
+    
+    margin-right: auto;
+    
+    margin-left: auto;
+    
+    border: black solid 1px;
+    
 }
