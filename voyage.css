@@ -94,7 +94,7 @@ header
 
 }
 
-header h1 :/* zozor */
+header h1 /* zozor */
 
 {
 
@@ -118,17 +118,11 @@ header h1 :/* zozor */
 
 }
 
-nav /* le coin acceuil blog cv contact*/
-
-{
-
-    margin:10px;
-
-}
-
 #bandeau /* photo + info*/
 
-{
+{  
+
+    position: relative;
 
     background: url('zozor/images/sanfrancisco.jpg') no-repeat;
 
@@ -138,21 +132,101 @@ nav /* le coin acceuil blog cv contact*/
 
     border-radius: 10px;
 
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+
 }
 
-nav ul
+#bandeau_info
 
 {
+
+    position: absolute;
+    
+    bottom: 0;
+
+	padding: 10px;
+
+	background-color: #1c151f;
+
+	opacity: 0.5;
+
+	color: white;
+
+	height: 50px;
+    
+    width: 98%;
+
+    border-bottom-left-radius: 10px;
+    
+    border-bottom-right-radius: 10px;
+}
+
+#bandeau_info a  /*  voir article* */
+
+{
+
+    position: absolute;
+
+    bottom: 5px;
+
+    right: 5px;
+
+	background-image: linear-gradient(red 10%,white);
+
+	color: white;
+
+	width: 150px;
+
+	height: 30px;
+
+	text-align: center;
+
+	border-radius: 10px;
+
+}
+
+
+nav ul /*  acceuil  blog  cv  contact*/
+
+{
+
+    margin: 10px;
 
     display: flex;
 
     flex-direction: row;
 
-    border: solid blue 2px;
-
     border-radius: 10px;
 
     padding: 5px;
+
+}
+
+nav a/* le coin acceuil blog cv contact*/
+
+{
+
+    font-size: 1.3em;
+
+    color: #181818;
+
+    padding-bottom: 3px;
+
+    text-decoration: none;
+
+    margin: 10px;
+
+}
+
+nav a:hover
+
+{
+
+    color: #760001;
+
+    border-bottom: 3px solid #760001;
 
 }
 
