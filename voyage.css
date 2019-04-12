@@ -269,8 +269,9 @@ article
 aside
 
 {
+    position: relative;
     
-    display: block;
+    display: flex;
     
     margin-left: 10px;
     
@@ -288,27 +289,30 @@ aside
     
 }
 
-aside h1  /*  A PROPOS DE L AUTEUR*/
-
+.image_bulle
 {
-    
-  white-space: nowrap;
-    
+
+    position: absolute;
+
+    top: 40px;
+
+    left: -12px;
 }
 
-aside ul
 
-{
-    
+.reso
+
+{   
     display: flex;
-    
+
     flex-direction: row;
-    
+
     justify-content: space-between;
     
     list-style-type: none;
     
 }
+
 
 #zozor_image
 
